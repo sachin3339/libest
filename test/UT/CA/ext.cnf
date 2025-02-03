@@ -6,7 +6,8 @@ subjectAltName = @alt_names
 crlDistributionPoints=URI:http://example.com/crl.pem
 
 [alt_names]
-DNS.1 = localhost
-DNS.2 = ip6-localhost
-IP.1 = 127.0.0.1 
-IP.2 = ::1 
+DNS.1 = estserver.saye.org        # Public domain
+DNS.2 = example.com               # Additional domain (if needed)
+DNS.3 = *.example.com             # Wildcard for subdomains (optional)
+IP.1  = 0.0.0.0                   # Bind to all IPv4 addresses
+IP.2  = ::                        # Bind to all IPv6 addresses
