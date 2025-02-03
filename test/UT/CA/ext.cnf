@@ -3,11 +3,11 @@
 basicConstraints = CA:FALSE
 keyUsage = nonRepudiation, digitalSignature, keyEncipherment
 subjectAltName = @alt_names
-crlDistributionPoints=URI:http://example.com/crl.pem
+crlDistributionPoints = URI:http://example.com/crl.pem
 
 [alt_names]
 DNS.1 = estserver.saye.org        # Public domain
 DNS.2 = example.com               # Additional domain (if needed)
 DNS.3 = *.example.com             # Wildcard for subdomains (optional)
-IP.1  = 9.46.241.184   # Add this IP address
+IP.1  = 9.46.241.184              # Public IP address
 IP.2  = ::                        # Bind to all IPv6 addresses
