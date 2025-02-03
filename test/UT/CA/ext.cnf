@@ -9,5 +9,5 @@ crlDistributionPoints=URI:http://example.com/crl.pem
 DNS.1 = estserver.saye.org        # Public domain
 DNS.2 = example.com               # Additional domain (if needed)
 DNS.3 = *.example.com             # Wildcard for subdomains (optional)
-IP.1  = 0.0.0.0                   # Bind to all IPv4 addresses
+IP.1  = 9.46.241.184   # Add this IP address
 IP.2  = ::                        # Bind to all IPv6 addresses
